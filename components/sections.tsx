@@ -38,27 +38,27 @@ const projects = [
 
 const certifications = [
   {
-    title: "AWS Certified Solutions Architect",
+    title: "AWS Certified AI Practitioner",
     issuer: "Amazon Web Services",
-    date: "2024",
+    date: "2025",
+    credentialUrl: "google.com",
+  },
+  {
+    title: "AWS Certified Cloud Practitioner",
+    issuer: "Amazon Web Services",
+    date: "2026",
     credentialUrl: "#",
   },
   {
-    title: "Google Cloud Professional Developer",
-    issuer: "Google Cloud",
-    date: "2024",
+    title: "PCEP - Certified Entry-Level Python Programmer",
+    issuer: "Python Institute",
+    date: "2022",
     credentialUrl: "#",
   },
   {
-    title: "TensorFlow Developer Certificate",
-    issuer: "Google",
-    date: "2023",
-    credentialUrl: "#",
-  },
-  {
-    title: "Meta Frontend Developer",
-    issuer: "Meta",
-    date: "2023",
+    title: "Lifeguarding (Including Deep Water) with CPR/AED for Professional Rescuers and First Aid",
+    issuer: "Red Cross",
+    date: "2025",
     credentialUrl: "#",
   },
 ]
