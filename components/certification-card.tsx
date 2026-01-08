@@ -12,6 +12,9 @@ interface CertificationCardProps {
 }
 
 export function CertificationCard({ title, issuer, date, credentialUrl, index }: CertificationCardProps) {
+  // We check if it exists AND if it is not just a placeholder hash
+  const hasValidLink = credentialUrl && credentialUrl !== "#";
+
   return (
     <motion.div
       initial={{ opacity: 0, x: -20 }}
@@ -28,7 +31,9 @@ export function CertificationCard({ title, issuer, date, credentialUrl, index }:
         <p className="text-sm text-muted-foreground mt-1">{issuer}</p>
         <p className="text-xs text-muted-foreground/70 font-mono mt-1">{date}</p>
       </div>
-      {credentialUrl && (
+      
+      {/* Updated Condition Here */}
+      {hasValidLink && (
         <a
           href={credentialUrl}
           target="_blank"
