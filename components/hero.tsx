@@ -5,7 +5,7 @@ import { ArrowDown } from "lucide-react"
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center grid-bg overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center grid-bg overflow-hidden pb-20">
       {/* Gradient orbs */}
       <div className="absolute top-1/4 -left-32 w-64 h-64 rounded-full bg-[#bf00ff]/20 blur-[100px]" />
       <div className="absolute bottom-1/4 -right-32 w-64 h-64 rounded-full bg-[#ec4899]/20 blur-[100px]" />
@@ -60,18 +60,18 @@ export function Hero() {
             Get In Touch
           </a>
         </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 1.2 }}
-          className="absolute bottom-10 left-1/2 -translate-x-1/2"
-        >
-          <a href="#about" className="text-muted-foreground hover:text-[#bf00ff] transition-colors">
-            <ArrowDown className="animate-bounce" size={28} />
-          </a>
-        </motion.div>
       </div>
+
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 1.2 }}
+        className="absolute bottom-8 left-0 right-0 flex justify-center"
+      >
+        <a href="#about" className="text-muted-foreground hover:text-[#bf00ff] transition-colors">
+          <ArrowDown className="animate-bounce" size={28} />
+        </a>
+      </motion.div>
     </section>
   )
 }
