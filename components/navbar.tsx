@@ -42,7 +42,7 @@ export function Navbar() {
               backgroundClip: "text",
             }}
           >
-            {"<TG />"}
+            {"<TG/>"}
           </a>
 
           {/* Desktop nav */}

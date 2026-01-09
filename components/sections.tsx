@@ -40,25 +40,25 @@ const certifications = [
   {
     title: "AWS Certified AI Practitioner",
     issuer: "Amazon Web Services",
-    date: "2025",
-    credentialUrl: "google.com",
+    date: "2026",
+    credentialUrl: "#",
   },
   {
     title: "AWS Certified Cloud Practitioner",
     issuer: "Amazon Web Services",
-    date: "2026",
+    date: "2025",
     credentialUrl: "#",
   },
   {
     title: "PCEP - Certified Entry-Level Python Programmer",
     issuer: "Python Institute",
-    date: "2022",
+    date: "2022", 
     credentialUrl: "#",
   },
   {
     title: "Lifeguarding (Including Deep Water) with CPR/AED for Professional Rescuers and First Aid",
     issuer: "Red Cross",
-    date: "2025",
+    date: "2024",
     credentialUrl: "#",
   },
 ]
