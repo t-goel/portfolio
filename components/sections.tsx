@@ -7,33 +7,33 @@ import { Github, Linkedin, Mail } from "lucide-react"
 
 const projects = [
   {
-    title: "AI Chat Assistant",
+    title: "MacroAnalyzer",
     description:
-      "A conversational AI assistant built with advanced language models, featuring real-time responses and context-aware interactions.",
-    techStack: ["Next.js", "OpenAI", "TypeScript", "Tailwind"],
+      "An AI-powered financial intelligence platform that aggregates macroeconomic news, quantifies sentiment, and visualizes correlations with historical market data to derive predictive insights for market performance.",
+    techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Python", "FastAPI", "Supabase", "FinBERT", "D3.js"],
     demoUrl: "#",
     codeUrl: "#",
   },
   {
-    title: "Fullstack E-Commerce Platform",
-    description: "Complete e-commerce solution with payment processing, inventory management, and admin dashboard.",
-    techStack: ["React", "Node.js", "PostgreSQL", "Stripe"],
+    title: "MarketDashboard",
+    description: "A financial analytics tool that visualizes historical stock trends with moving average overlays, aggregates real-time news, and utilizes linear regression models to forecast future price movements.",
+    techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Python", "FastAPI", "Scikit-learn", "Recharts", "yfinance"],
     demoUrl: "#",
     codeUrl: "#",
   },
   {
-    title: "Real-time Collaboration Tool",
-    description: "Live document editing and collaboration platform with WebSocket-based real-time sync.",
-    techStack: ["Next.js", "Socket.io", "Redis", "MongoDB"],
+    title: "Reinforcement Learning Pac-Man",
+    description: "A Pac-Man implementation built in PyGame that uses Q-Learning(a type of machine learning) to intelligently guide ghosts.",
+    techStack: ["Python", "PyGame", "Pickle"],
     demoUrl: "#",
     codeUrl: "#",
-  },
-  {
-    title: "ML Image Classifier",
-    description: "Image classification API using machine learning models with high accuracy and fast inference.",
-    techStack: ["Python", "TensorFlow", "FastAPI", "Docker"],
-    codeUrl: "#",
-  },
+   },
+  // {
+  //   title: "ML Image Classifier",
+  //   description: "Image classification API using machine learning models with high accuracy and fast inference.",
+  //   techStack: ["Python", "TensorFlow", "FastAPI", "Docker"],
+  //   codeUrl: "#",
+  // },
 ]
 
 const certifications = [
@@ -232,7 +232,7 @@ export function ContactSection() {
 
       {/* Footer */}
       <div className="mt-24 text-center text-muted-foreground/60 text-sm font-mono">
-        <p>© {new Date().getFullYear()} Tanmay Goel. Built with Next.js & Framer Motion.</p>
+        <p>© {new Date().getFullYear()} Tanmay Goel.</p>
       </div>
     </section>
   )
