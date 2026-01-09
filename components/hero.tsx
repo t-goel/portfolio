@@ -16,8 +16,9 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-balance">
-            Building the future with{" "}
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight text-balance">
+            Tanmay Goel{" "}
+            <br className="md:hidden" /> {/* Force break on small mobile only */}
             <span
               className="text-glow"
               style={{
@@ -27,7 +28,7 @@ export function Hero() {
                 backgroundClip: "text",
               }}
             >
-              AI & Fullstack Architecture
+              Software Engineer
             </span>
           </h1>
         </motion.div>
@@ -38,7 +39,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-pretty"
         >
-          I am a Software Developer interested in integrating AI into fullstack applications and continuous learning.
+          CS & Economics at UIUC. Building intelligent web solutions.
         </motion.p>
 
         <motion.div

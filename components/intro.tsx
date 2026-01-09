@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { motion, AnimatePresence } from "framer-motion"
+import { motion, AnimatePresence, px } from "framer-motion"
 
 export function Intro({ onComplete }: { onComplete: () => void }) {
   const [stage, setStage] = useState(0)
@@ -27,13 +27,15 @@ export function Intro({ onComplete }: { onComplete: () => void }) {
             transition: { duration: 0.8, ease: "easeInOut" },
           }}
         >
+
           <motion.h1
-            className="text-4xl md:text-6xl lg:text-7xl font-bold font-mono text-glow"
+            className="text-3xl md:text-5xl lg:text-6xl font-bold font-mono text-glow text-center px-4" // Added center/px-4 for mobile safety
             style={{
               background: "linear-gradient(135deg, #bf00ff 0%, #ec4899 50%, #8b5cf6 100%)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               backgroundClip: "text",
+              fontSize:50
             }}
             initial={{ opacity: 0, y: 20 }}
             animate={{
@@ -42,11 +44,11 @@ export function Intro({ onComplete }: { onComplete: () => void }) {
             }}
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
-            Tanmay Goel
+            Intelligent Optimization
           </motion.h1>
 
           <motion.p
-            className="mt-4 text-lg md:text-xl text-muted-foreground font-mono"
+            className="mt-4 text-lg md:text-xl text-muted-foreground font-mono text-center"
             initial={{ opacity: 0, y: 20 }}
             animate={{
               opacity: stage >= 2 ? 1 : 0,
@@ -54,7 +56,7 @@ export function Intro({ onComplete }: { onComplete: () => void }) {
             }}
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
-            Software Developer | AI Integrations
+            Bridging Economics & AI
           </motion.p>
 
           {/* Animated line */}
