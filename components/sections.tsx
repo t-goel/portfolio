@@ -18,7 +18,7 @@ const projects = [
     title: "MarketDashboard",
     description: "A financial analytics tool that visualizes historical stock trends with moving average overlays, aggregates real-time news, and utilizes linear regression models to forecast future price movements.",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Python", "FastAPI", "Scikit-learn", "Recharts", "yfinance"],
-    demoUrl: "enter website/video url",
+    demoUrl: "#",
     codeUrl: "https://github.com/t-goel/MarketDashboard",
   },
   {
@@ -88,18 +88,18 @@ export function AboutSection() {
           </h2>
           <div className="mt-8 p-8 glassmorphism rounded-2xl">
             <p className="text-muted-foreground leading-relaxed text-lg">
-              Hi I'm Tanmay! I am a passionate Software Developer with a deep interest in artificial intelligence and its applications
-              in modern web development. My journey in tech has been driven by curiosity and a constant desire to learn
+              Hi I'm Tanmay! I'm a passionate Software Developer with a deep interest in artificial intelligence and its applications
+              in economics. My journey in tech has been driven by curiosity and a constant desire to learn
               and grow.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed text-lg">
-              I specialize in building fullstack applications that leverage the power of AI to create intelligent,
-              responsive, and user-centric experiences. From natural language processing to computer vision, I enjoy
-              exploring how AI can transform the way we interact with technology.
+              I specialize in building applications that leverage the power of AI to create intelligent,
+              responsive, and user-centric experiences. Recently, I've been exploring how natural language processing can used to derive macroeconomic insights.
+              
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed text-lg">
-              When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, and
-              sharing knowledge with the developer community.
+              When I'm not coding, you'll find me doing something active, learning new skills, or 
+              playing board games with my friends.
             </p>
           </div>
         </motion.div>
