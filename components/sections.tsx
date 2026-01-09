@@ -202,7 +202,7 @@ export function ContactSection() {
 
           <div className="mt-12 flex justify-center gap-6">
             <a
-              href="https://github.com"
+              href="https://github.com/t-goel"
               target="_blank"
               rel="noopener noreferrer"
               className="p-4 rounded-full bg-card border border-border hover:border-[#bf00ff] hover:glow-purple transition-all duration-300 group"
@@ -211,7 +211,7 @@ export function ContactSection() {
               <Github size={28} className="text-muted-foreground group-hover:text-[#bf00ff] transition-colors" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/tim-goel/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-4 rounded-full bg-card border border-border hover:border-[#bf00ff] hover:glow-purple transition-all duration-300 group"
@@ -220,7 +220,7 @@ export function ContactSection() {
               <Linkedin size={28} className="text-muted-foreground group-hover:text-[#bf00ff] transition-colors" />
             </a>
             <a
-              href="mailto:hello@tanmaygoel.dev"
+              href="mailto:timgoelny@gmail.com"
               className="p-4 rounded-full bg-card border border-border hover:border-[#bf00ff] hover:glow-purple transition-all duration-300 group"
               aria-label="Email"
             >
