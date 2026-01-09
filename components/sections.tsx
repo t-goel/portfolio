@@ -9,7 +9,7 @@ const projects = [
   {
     title: "MacroAnalyzer",
     description:
-      "An AI-powered financial intelligence platform that aggregates macroeconomic news, quantifies sentiment, and visualizes correlations with historical market data to derive predictive insights for market performance.",
+      "An AI-powered financial intelligence platform that aggregates macroeconomic news, quantifies sentiment using natural language processing, and visualizes correlations with historical market data to derive predictive insights for market performance.",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Python", "FastAPI", "Supabase", "FinBERT", "D3.js"],
     demoUrl: "#",
     codeUrl: "https://github.com/t-goel/MacroAnalyzer",
@@ -88,7 +88,7 @@ export function AboutSection() {
           </h2>
           <div className="mt-8 p-8 glassmorphism rounded-2xl">
             <p className="text-muted-foreground leading-relaxed text-lg">
-              I'm a passionate Software Developer with a deep interest in artificial intelligence and its applications
+              Hi I'm Tanmay! I am a passionate Software Developer with a deep interest in artificial intelligence and its applications
               in modern web development. My journey in tech has been driven by curiosity and a constant desire to learn
               and grow.
             </p>
