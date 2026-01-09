@@ -13,6 +13,10 @@ interface ProjectCardProps {
 }
 
 export function ProjectCard({ title, description, techStack, demoUrl, codeUrl, index }: ProjectCardProps) {
+  // Check if links exist and are not just placeholders
+  const hasDemo = demoUrl && demoUrl !== "#";
+  const hasCode = codeUrl && codeUrl !== "#";
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -42,7 +46,7 @@ export function ProjectCard({ title, description, techStack, demoUrl, codeUrl, i
 
         {/* Action buttons */}
         <div className="mt-6 flex gap-3">
-          {demoUrl && (
+          {hasDemo && (
             <a
               href={demoUrl}
               target="_blank"
@@ -53,7 +57,7 @@ export function ProjectCard({ title, description, techStack, demoUrl, codeUrl, i
               Demo
             </a>
           )}
-          {codeUrl && (
+          {hasCode && (
             <a
               href={codeUrl}
               target="_blank"

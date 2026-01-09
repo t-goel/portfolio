@@ -18,7 +18,7 @@ const projects = [
     title: "MarketDashboard",
     description: "A financial analytics tool that visualizes historical stock trends with moving average overlays, aggregates real-time news, and utilizes linear regression models to forecast future price movements.",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Python", "FastAPI", "Scikit-learn", "Recharts", "yfinance"],
-    demoUrl: "#",
+    demoUrl: "enter website/video url",
     codeUrl: "https://github.com/t-goel/MarketDashboard",
   },
   {
