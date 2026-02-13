@@ -39,7 +39,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-pretty"
         >
-          CS & Economics at UIUC. Building intelligent web solutions.
+          CS at UIUC. Software Engineer focused on AI and Economics.
         </motion.p>
 
         <motion.div
